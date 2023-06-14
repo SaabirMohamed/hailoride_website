@@ -6,7 +6,7 @@
     "dev": "next dev --port 4488",
     "build": "next build",
     "build_and_run": "next build && next start --port 4488",
-    "docker_build_and_run": "docker run -p 4488:4488 309ca06eb48c 'pnpm run build && pnpm run start --port 4488' ",
+    "docker_build_and_run": "docker run -p 4488:4488 f8a2ab1a7b03 'pnpm run build && pnpm run start --port 4488' ",
     "start": "next start --port 4488",
     "lint": "next lint"
   },
