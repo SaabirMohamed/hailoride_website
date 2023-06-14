@@ -1,6 +1,6 @@
-FROM node:14.17.6-alpine
+FROM node:18.4.0-alpine
 
-RUN apk add --no-cache python3 pnpm
+# RUN apk add --no-cache python2 pnpm
 
 WORKDIR /app
 
